@@ -3,6 +3,7 @@
 
 int main(void){
     printf("Sera feito algumas perguntas para descobrir qual animal sera retornado.\n");
+    //Depois tentar usar comom char pra analisar se foi sim ou não a resposta digitada. Também fazer caso não esteja entre sim e não tornar perguntar com o while.
     int mamifero, aves, repteis, quadrupedes, bipedes, voadores, aquaticos, tropicais, nadador, carnivoro, casco, sem_patas, herbivoro, onivoro, frutivoro;
     
     printf("Digite 1 caso seja sim e 0 caso seja nao\n");
