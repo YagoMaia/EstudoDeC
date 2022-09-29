@@ -9,11 +9,15 @@ int main(void)
         printf("(%d,", count);
         for (i = 1; i <= 10; i++)
         {
-            printf("%d,", i);
             if (i == 10)
             {
-                printf(")\n");
+                printf("%d)\n", i);
             }
+            else{
+                printf("%d,", i);
+            }
+            
+
         }
     }
 
